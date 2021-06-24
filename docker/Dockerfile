@@ -5,7 +5,7 @@ LABEL maintainer="blaqfox<cschirwa@gmail.com>"
 # Copy jar file
 COPY healthy-dining-0.0.1-SNAPSHOT.jar /healthy-dining.jar
 
-EXPOSE 7002
+EXPOSE 8080
 
 #Set environment variables for Registrator to pick up (SERVICE_PORT_KEY)
 ENV SERVICE_7002_NAME healthy-dining
