@@ -12,7 +12,7 @@ public class Controller {
 		return "This is a fake Healthy Dining Service";
 	}
 
-	@GetMapping("/HealthyDining")
+	@GetMapping("/HealthyDining/")
 	public String healthyDining() {
 		return "This is a fake endpoint for HD";
 	}
